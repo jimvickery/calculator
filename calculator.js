@@ -26,7 +26,6 @@ numb1 = document.getElementById('number1').value;
 numb2 = document.getElementById('number2').value;
 }
 
-
 /*
 
   Create a function that multiplies two numbers
@@ -38,7 +37,6 @@ numb2 = document.getElementById('number2').value;
    multiPlaceholder.innerHTML = product;
    return product;
  }
-
 
 /*
   Create a function that adds two numbers
@@ -71,7 +69,6 @@ function divideNumb(numb1, numb2) {
   return division;
 }
 
-
 /*
   Create a function that accepts three arguments.
     1. First number
@@ -93,6 +90,7 @@ sumBtnPlaceHolder.addEventListener('click', function(){
 }, false);
 
 subtrBtnPlaceHolder.addEventListener('click', function(){
+   getNumbers ();
   subtractNumb(numb1, numb2);
 }, false);
 
